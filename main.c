@@ -1,17 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-
-void checkEmail(char *emailDigitado) {
-    printf("Digite seu email: ");
-    scanf("%s", emailDigitado);
-}
-
-void checkSenha(char *senhaDigitada) {
-    printf("Digite sua senha: ");
-    scanf("%s", senhaDigitada);
-}
-
+void checkEmail(char *emailDigitado);
+void checkSenha(char *senhaDigitada);
 
 int main() {
 char emailDigitado[30];
@@ -30,3 +21,15 @@ char senhaCorreta[6] = "Rk123";
 
     printf("login realizado!\n");
 }
+
+
+void checkEmail(char *emailDigitado) {
+    printf("Digite seu email: ");
+    scanf("%s", emailDigitado);
+}
+
+void checkSenha(char *senhaDigitada) {
+    printf("Digite sua senha: ");
+    scanf("%s", senhaDigitada);
+}
+
